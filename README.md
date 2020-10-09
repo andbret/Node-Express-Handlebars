@@ -1,4 +1,4 @@
-# Employee-Tracker
+# Node-Express-Handlebars
 
   * [Description](#description)
   * [Installation](#installation)
