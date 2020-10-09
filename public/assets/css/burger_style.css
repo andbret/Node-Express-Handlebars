@@ -1,0 +1,87 @@
+
+/* gotham fonts with multiple sources for browser compatability */
+@font-face {
+  font-family: gotham-book;
+  src: url("public/assets/fonts/gotham-book.otf") format("opentype"),
+      /* Original File */
+      url("public/assets/fonts/gotham-book.woff") format("woff"),
+      /* Modern Browsers */
+      url("public/assets/fonts/gotham-book.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: gotham-black;
+  src: url("public/assets/fonts/gotham-black.otf") format("opentype"),
+      /* Original File */
+      url("public/assets/fonts/gotham-black.woff") format("woff"),
+      /* Modern Browsers */
+      url("public/assets/fonts/gotham-black.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: gotham-medium;
+  src: url("Gotham-Medium.otf") format("opentype"),
+      /* Original File */
+      url("Gotham-Medium.woff") format("woff"),
+      /* Modern Browsers */
+      url("Gotham-Medium.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+
+body {
+  background-color: #F5F5F5;
+}
+.jumbotron{
+  /* background-color: rgb(255, 223, 78); */
+  background-color: rgb(211, 31, 31);
+
+  box-shadow: 2px 2px 10px 1px #dddddd;
+}
+.btn-primary{
+  background-color: rgb(211, 31, 31) !important;
+  border-color: rgb(211, 31, 31)!important;
+}
+#burgerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  opacity: 75%;
+}
+
+#title {
+  text-align: center;
+  font-size: 70px;
+}
+
+/* #burgersDivEat{
+ flex:0 0 60%;
+} */
+
+#burgerListEat, #burgerListDevo{
+  font-size: 20px;
+}
+
+#burgersDivDevo{
+  flex: 1;
+}
+
+#addBurger {
+  text-align: center;
+}
+
+.card{
+  border-color: none!important;
+  border: none!important;
+  box-shadow: 2px 2px 10px 1px #dddddd;
+  border-radius: 15px;
+}
+h1, h2  {   font-family: gotham-black, sans-serif;
+}
+h1  {   color:  rgb(255, 255, 255);
+}
+.btn-warning{
+  color:  rgb(255, 255, 255);
+}
